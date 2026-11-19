@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("FxLegacySettingFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("2514"),s=o("FalcoLoggerInternal").create("fx_legacy_setting",e),u=s;l.default=u}),98);
+__d("FxcalSettingsProductFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("117"),s=o("FalcoLoggerInternal").create("fxcal_settings_product",e),u=s;l.default=u}),98);
+__d("usePolarisCreationLongFormUploadBeforeUnloadGuard",["CometEventListener","react","react-compiler-runtime"],(function(t,n,r,o,a,i,l){"use strict";var e,s=(e||(e=o("react"))).useEffect;function u(e){var t=o("react-compiler-runtime").c(3),n,a;t[0]!==e?(n=function(){if(e){var t=r("CometEventListener").addListenerWithOptions(window,"beforeunload",c,{passive:!1});return(function(){return t.remove()})}},a=[e],t[0]=e,t[1]=n,t[2]=a):(n=t[1],a=t[2]),s(n,a)}function c(e){e.preventDefault(),Reflect.set(e,"returnValue","")}l.default=u}),98);

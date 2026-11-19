@@ -9,6 +9,9 @@ export default function DefaultLayout() {
       <Stack.Screen name="posts/create" options={{
         headerTitle: "Create Post"
       }} />
+      <Stack.Screen name="posts/edit" options={{
+        headerTitle: "Edit Post"
+      }} />
     </Stack>
   )
 }
